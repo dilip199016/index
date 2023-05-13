@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Circle Inside Circle Example</title>
+	<style>
+		.outer-circle {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 2px solid purple;
+      }
+
+      .inner-circle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: green;
+      }
+      .container {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+	</style>
+</head>
+<body>
+    <div class="container">
+	<div class="center">
+		<div class="outer-circle">
+			<div class="inner-circle"></div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

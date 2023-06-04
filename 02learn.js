@@ -18,8 +18,4 @@ var sample = () => {
   var variable2=function(){
     console.log('Morning')
   }
-  var variable3=function (){} //anonimous
-  console.log(variable3)
-//   variable1()
-//   variable2()
-//   variable3()
+  

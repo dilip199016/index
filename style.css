@@ -11,7 +11,7 @@ body{
     color: #fff;
 }
  .header{ 
-    position: fixed;
+    position: fixed;        
     top: 0;
     left: 0;
     width: 100%;
@@ -41,20 +41,32 @@ margin-left: 35px;
 .navbar a.hover{
     background: linear-gradient(45deg,#f06,#3cf);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+     -webkit-background-clip: text;
 
 }
 .home{
     width: 100%;
     height: 100vh;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 0 10%;
+    padding: 70px 10% 0;
 
 }
 .Home-content h1{
     font-size: 56px;
     font-weight: 700;
+    line-height: 1.2;
+
+}
+.Home-content{
+    
+    max-width: 600px;
+    
+}
+.Home-content p{
+    position: relative;
+    margin: 20px 0 40px;
 
 }
 
@@ -64,13 +76,16 @@ margin-left: 35px;
 }
 .Home-content p{
     font-size: 16px;
+    transition: .5s ease;
 }
 .btn{
-    position: relative;
+    position: absolute;
+    
+    left: 10%;
 display: inline-flex;
 justify-content: center;
 align-items: center;
-width: 300px;    
+width: 180px;    
 height: 48px;
 background: red;
 border-radius: 40px;
@@ -80,6 +95,9 @@ text-decoration: none;
 font-weight: 600;
 letter-spacing: 1px;
 z-index: 1;
+margin-left: 10px;
+margin-top: 0;
+
 
 }
 .btn::before{
@@ -88,7 +106,7 @@ z-index: 1;
     top: 0;
     left: 0;
     inset: 0;
-    background: linear-gradient(45deg,#f06,#3cf);
+    background: linear-gradient(45deg,#3cf,#f06);
     background-size: 200%;
     background-position: 0 0;
     z-index: -1;
@@ -108,7 +126,7 @@ background-position: 100%;
     top: 0;
     left: 0;
     inset: 0;
- background: linear-gradient(45deg,#f06,#3cf);
+ background: linear-gradient(45deg,#3cf,#f06);
  background-size: 200%;
 background-position: 0 0;
 z-index: -1;
@@ -118,5 +136,100 @@ transition: .5s ease;
 }
 .btn:hover::after{
     background-position: 100% 0;
+
+}
+.Home-content a{
+    display: flex;
+}
+
+
+.home-img{
+    width: 410px;
+    height: 410px;
+     /* background: red;  */
+} 
+.home-img .glowing-circle{
+    width: 100%;
+    height: 100%;
+    background: yellow;
+    border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.home-img .glowing-circle::after{
+content: '';
+position: absolute;
+width: 380px;
+height: 380px;
+background: #0c1022;
+border-radius: 50%;
+z-index: 1;
+}
+
+
+.glowing-circle .image{
+    position: relative;
+    width: 380px;
+    height: 380px;
+    background: green;
+    border-radius:50% ;
+    z-index: 1;
+    overflow: hidden;
+
+}
+.image .img{
+    position: absolute;
+max-width: 350px;
+top: 30px;
+left: 50%;
+transform: translate();
+object-fit: cover;
+
+}
+.home-soc a{
+    position: relative; 
+    display: flex;
+     justify-content: center; 
+     align-items: center;
+    width: 40px;
+    height: 40px;
+background: linear-gradient(45deg,#f06,#3cf);
+border-radius: 50%;
+font-size: 20px;
+color: #fff;
+text-decoration: none;
+margin: 20px 0;
+z-index: 1;
+
+}
+.home-soc a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    border-radius: 50%;
+    transition: .5s ease;
+    transform:scale(.88);
+    z-index: -1;
+}
+.home-soc a:hover::before{
+transform: scale(0);
+
+}
+.home-soc a::before{
+    content: '';
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(45deg,#f06,#3cf);
+    
+        z-index: -1; 
+    
+
+}
+home-soc a:hover::after{
 
 }

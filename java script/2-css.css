@@ -1,0 +1,11 @@
+#body{
+background: linear-gradient(to bottom, #ff0000, #00ff00);
+}
+.Divs{
+    height: 250px;
+    width: 250px;
+    background: linear-gradient(#06cf06,45deg,#845);
+}
+
+
+

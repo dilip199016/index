@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    .image {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(50%);
+      border-top: 5px solid black;
+      border-bottom: 5px solid red;
+    }
+
+    .gradient-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, rgba(255, 0, 0, 0.5), rgba(0, 255, 0, 0.5));
+      /* Replace the rgba values with your desired color stops */
+    }
+
+    .header {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      color: white;
+      font-weight: bold;
+    }
+
+    .header a {
+      color: white;
+      text-decoration: none;
+      margin-right: 10px;
+    }
+
+    .search-box {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .search-input {
+      width: 300px;
+      height: 40px;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+    }
+
+    .search-button {
+      width: 100px;
+      height: 40px;
+      margin-top: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img class="image" src="https://c4.wallpaperflare.com/wallpaper/961/953/301/full-hd-nature-for-pc-1920x1200-wallpaper-thumb.jpg" alt="Your Image">
+    <div class="gradient-overlay"></div>
+    <div class="header">
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="search-box">
+      <input type="text" class="search-input" placeholder="Enter your search term">
+      <input type="submit" value="Search" class="search-button">
+    </div>
+  </div>
+</body>
+</html>

@@ -146,9 +146,10 @@ transition: .5s ease;
 .home-img{
     width: 410px;
     height: 410px;
-     /* background: red;  */
+     /* background: red;  */ 
 } 
 .home-img .glowing-circle{
+    position: relative;
     width: 100%;
     height: 100%;
     background: yellow;
@@ -163,17 +164,16 @@ content: '';
 position: absolute;
 width: 380px;
 height: 380px;
-background: #0c1022;
+/* background: #0c1022; */
 border-radius: 50%;
-z-index: 1;
+
 }
-
-
 .glowing-circle .image{
+
     position: relative;
     width: 380px;
     height: 380px;
-    background: green;
+    background: rgb(253, 7, 7);
     border-radius:50% ;
     z-index: 1;
     overflow: hidden;
@@ -184,52 +184,52 @@ z-index: 1;
 max-width: 350px;
 top: 30px;
 left: 50%;
-transform: translate();
+transform: translate(-50%);
 object-fit: cover;
 
 }
-.home-soc a{
-    position: relative; 
+.home-sci a{
+    position: relative;
     display: flex;
-     justify-content: center; 
-     align-items: center;
+    justify-content: center;
+    align-items: center;
     width: 40px;
     height: 40px;
-background: linear-gradient(45deg,#f06,#3cf);
-border-radius: 50%;
-font-size: 20px;
-color: #fff;
-text-decoration: none;
-margin: 20px 0;
-z-index: 1;
-
+    background: linear-gradient(45deg,#f06,#3cf);
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin: 20px 0;
+    z-index: 1;
 }
-.home-soc a::after{
+.home-sci a::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,#f06,#3cf);
+    border-radius: 50%;
+    /* transform: scale(.88); */
+    z-index: -1;
+     transition: .5s ease;
+}
+.home-sci a:hover::before{
+    filter: blur(5px);
+}
+
+.home-sci a::after{
     content: '';
     position: absolute;
     width: 100%;
     height: 100%;
     background: black;
     border-radius: 50%;
-    transition: .5s ease;
-    transform:scale(.88);
+    transform: scale(.88);
     z-index: -1;
+     transition: .5s ease;
 }
-.home-soc a:hover::before{
+.home-sci a:hover::after{
 transform: scale(0);
-
-}
-.home-soc a::before{
-    content: '';
-    position: absolute; 
-    width: 100%;
-    height: 100%;
-    background:linear-gradient(45deg,#f06,#3cf);
-    
-        z-index: -1; 
-    
-
-}
-home-soc a:hover::after{
 
 }

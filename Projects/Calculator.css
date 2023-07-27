@@ -5,7 +5,8 @@ body{
     align-items: center;
     text-align: center;
     margin-left: 100vh;
-    border-radius:7px;
+    border-radius:12px;
+    
 }
 .Head{
 
@@ -16,11 +17,16 @@ body{
     height: 350px;
     border: 2.5px solid gray;
     font-size: 25px bold;
+   
+}
+
+.First{
+    background-color: coral;
 }
 .Display{
     align-items: center;
     text-align: center;
-    color: white;
+    color: black;
     width: 90%;
     height:30px;
 border: 1px solid red;
@@ -33,13 +39,14 @@ text-align:center;
 font-size: 25px;
 }
 .btn{
-    font-size: 25px;
+    font:bold;
+    font-size: 35px;
     background-color: rgb(48, 241, 4);
     font-display: 25px;
-    width: 90%;
-    height: 90%;
-    margin:auto;
-    padding-top: 5px;
+    width: 100%;
+    height: 100%;
+    margin:1px 1px 1px 1px;
+    padding-top: 1px;
     size: 25px;
 }
 

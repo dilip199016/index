@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="eventbubbler.css">
+</head>
+
+<body>
+    <div class='grandparent box' onclick="grandParent(event)">
+        <div class="parent box" onclick="parent(event)">
+            <div class="child box">
+                <div class="grandchild box">Click me</div>
+            </div>
+        </div>
+    </div>
+    <script src="eventbubbling.js"></script>
+</body>
+
+</html>

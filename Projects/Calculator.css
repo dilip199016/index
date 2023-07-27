@@ -1,0 +1,53 @@
+body{
+    border:2.5px solid goldenrod;
+    width: 200px;
+    height: 350px;
+    align-items: center;
+    text-align: center;
+    margin-left: 100vh;
+    border-radius:7px;
+}
+.Head{
+
+    text-align: center;
+    color: chocolate;
+    align-items: center;
+    width: 200px;
+    height: 350px;
+    border: 2.5px solid gray;
+    font-size: 25px bold;
+}
+.Display{
+    align-items: center;
+    text-align: center;
+    color: white;
+    width: 90%;
+    height:30px;
+border: 1px solid red;
+border-radius:5px;
+margin: auto;
+}
+h3{
+color:red;
+text-align:center;
+font-size: 25px;
+}
+.btn{
+    font-size: 25px;
+    background-color: rgb(48, 241, 4);
+    font-display: 25px;
+    width: 90%;
+    height: 90%;
+    margin:auto;
+    padding-top: 5px;
+    size: 25px;
+}
+
+
+/* .btn{
+width: 10px;
+height:10px;
+bottom: 20px;
+ margin: 5px 5px 5px 5px;
+font-size: 25px;
+} */

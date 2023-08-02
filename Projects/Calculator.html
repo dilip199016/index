@@ -7,7 +7,7 @@
     <title>Calculator</title>
 </head>
 <body>
-    <div>
+    <div class="First">
         <h3>Calculator</h3>
         <div class="Display" id="result">0</div>
         <div class="btn">
@@ -17,24 +17,32 @@
                 <button onclick="toggleSign()">+/-</button>
                 <button onclick="performOperation('%')">%</button>
             </div>
+
+
             <div>
                 <button onclick="appendNumber(7)">7</button>
                 <button onclick="appendNumber(8)">8</button>
                 <button onclick="appendNumber(9)">9</button>
                 <button onclick="performOperation('/')">/</button>
             </div>
+
+
             <div>
                 <button onclick="appendNumber(4)">4</button>
                 <button onclick="appendNumber(5)">5</button>
                 <button onclick="appendNumber(6)">6</button>
                 <button onclick="performOperation('*')">*</button>
             </div>
+
+
             <div>
                 <button onclick="appendNumber(1)">1</button>
                 <button onclick="appendNumber(2)">2</button>
                 <button onclick="appendNumber(3)">3</button>
                 <button onclick="performOperation('-')">-</button>
             </div>
+
+
             <div>
                 <button onclick="appendDecimal()">.</button>
                 <button onclick="appendNumber(0)">0</button>
@@ -43,6 +51,8 @@
             </div>
         </div>
     </div>
+
+    
     <script src="calculator.js"></script>
 </body>
 </html>

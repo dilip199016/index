@@ -1,0 +1,50 @@
+
+
+.Slide-fade{
+    /* border: 2px solid blue; */
+    border-radius: 15px;
+    
+}
+.Textbox{
+    /* align-items: center; */
+    font-size: 25px;
+    color: chocolate;
+    text-align: center;
+}
+
+.textnumb{
+    text-align: center;
+    font-size: 10px;
+    position: absolute;
+    color: black;
+    bottom: 10px;
+    padding: 8px 12px;
+}
+
+.previos:hover,.next:hover{
+    background-color: aqua;
+
+}
+
+.next{
+ width: fit-content;
+    margin-left:75% ;
+font-size: 25px;
+border: 3px solid red;
+    background-color: chartreuse;
+    cursor: pointer;
+}
+.previos{
+ 
+   width: fit-content; 
+font-size: 25px;
+border: 3px solid red;
+    background-color: chartreuse;
+    cursor: pointer;
+}
+.image{
+    width: 75%;
+    height: 70%;
+    align-items: center;
+    margin-left: 13%;
+}

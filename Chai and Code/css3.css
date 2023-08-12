@@ -1,0 +1,36 @@
+body{
+    color: rgb(3, 75, 55);
+    font-size: 20px;
+}
+ /* th{
+    border: 2px solid red;
+} */
+/* table{
+    border: 2px solid purple;
+} */
+th, tr{
+    border: 2px solid red;
+}
+ table{
+    border-collapse: collapse;
+    border: 1px solid black;
+ }
+ th{
+    background-color:maroon;
+ }
+ tr{
+    color: rgb(252, 210, 2);
+    background-color: cornflowerblue;
+    text-align: center;
+    align-items: center;
+    justify-content: center
+    
+    ;
+ }
+ td {
+    /* background-color: rgb(52, 233, 182); */
+    
+    color: rgb(243, 0, 0);
+    
+    font-size: 20px;/* Adding a border for better visibility */
+}

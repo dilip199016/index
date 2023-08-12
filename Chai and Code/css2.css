@@ -1,0 +1,22 @@
+body{
+    color: greenyellow;
+
+}
+
+table{
+    background-color: brown;
+    border: 2px solid black;
+
+}
+th,td{
+    border: 2px solid black;
+    padding: 5px;
+}
+/* tr{
+    border: .125rem solid black;
+} */
+
+h2{
+    color:peru;
+    text-align: center;
+}

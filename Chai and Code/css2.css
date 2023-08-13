@@ -1,22 +1,31 @@
 body{
-    color: greenyellow;
+    align-items: center;
 
 }
 
 table{
-    background-color: brown;
+    background-color: rgb(235, 229, 229);
     border: 2px solid black;
 
 }
 th,td{
     border: 2px solid black;
     padding: 5px;
+    color: darkmagenta;
 }
 /* tr{
     border: .125rem solid black;
 } */
 
-h2{
-    color:peru;
+/* h2{
+    color:rgba(244, 242, 241, 0.977);
     text-align: center;
+} */
+.student{
+    color: darkcyan;
+    background-color: chartreuse;
+    font-size: 25px;
 }
+/* tr{
+    color: white;
+} */

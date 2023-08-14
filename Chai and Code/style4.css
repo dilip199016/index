@@ -1,0 +1,20 @@
+body{
+    color: rgb(44, 233, 7);
+}
+table{
+    border: 2px solid red;
+border-radius: 5px;
+
+}
+tr{
+    background-color: rgb(197, 166, 225);
+    font-size: 20px;
+}
+td{
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+tr,td{
+    color: darkred;
+}

@@ -1,0 +1,162 @@
+body{
+    background-color: rgb(225, 193, 193); /* For browsers that do not support gradients */
+  /* background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); */
+ margin: 0;
+}
+ h1 {
+    margin: 5px;
+    padding: 0;
+}
+p{
+    margin: 5px;
+}
+header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-icon {
+    width: 120px;
+    height: auto;
+    margin-right: 10px;
+    margin-left: 5px;
+    padding-left: 5px;
+  }
+  .account{
+    font-size: 18px;
+    color:black;
+  }
+
+
+  .header-text {
+    font-size: 30px;
+    margin-left: 85px;
+    text-align: center;
+  }
+header{
+    margin-top: 0;
+    font-size: 25px;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    color: rgb(244, 84, 84);
+    background: rgb(12,209,11);
+background: linear-gradient(180deg, rgba(12,209,11,1) 25%, rgba(237,237,237,1) 50%, rgba(240,104,20,1) 100%);
+background-size:60px ;
+margin-top: 0;
+}
+
+.Searchbar{
+    color: rgb(249, 0, 0);
+    /* text-shadow: 1px 2px 0 6px rgb(232, 4, 4); */
+    font-size: 20px;
+    margin-right: 20%;
+    
+text-decoration: blueviolet;
+align-items: center;
+text-align: center;
+
+}
+.location{
+    color: black;
+    text-shadow: none;
+    }
+.search {
+    border: red;
+    border-radius: 7px;
+    align-items: center;
+    margin-left: 35%;
+    width: 350px;
+    height: 90px;
+    margin-bottom: 0; /* Remove margin */
+}
+.order {
+    color: #000000;
+    text-shadow: none;
+    font-size: 20px; /* Aap apne order section ke liye pasandeeda font size set kar sakte hain */
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .order-icon {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+input{
+width: 280px;
+height: 30px;
+border: 2px solid red;
+border-radius: 20px;
+color: blue;
+}
+button{
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.search input[type="text"] {
+    color: blue; 
+}
+
+/* .search button[type="submit"] {
+    background-color: rgb(255, 0, 0); 
+} */
+
+/* Additional styling for the input box */
+.search input[type="text"]::placeholder {
+    color: rgb(3, 23, 239); 
+}
+
+
+.search button[type="submit"] i.fa-search {
+    color: rgb(50, 6, 152); 
+}
+form{
+    margin-bottom: 0px;
+}
+
+div{
+    margin-top: 0;
+}
+
+
+
+/* Remove margin-top for the div */
+.Grocerry {
+    background: rgb(12,209,11);
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);       
+         width: 100%;
+    height: 150px;
+    margin-top: 0; /* Remove margin-top */
+ } 
+.Grocerry .Grocerry1 {
+    width: calc(100% /3); /* Adjust the width based on the number of items */
+    max-width: 160px; /* Set a maximum width to ensure consistency */
+    border: 2px solid black;
+    box-sizing: border-box; /* Include border in the element's width */
+    margin: 8px; /* Adjust margin for spacing */
+    height: 150px; /* Set a consistent height */
+    background-color: #f2f2f2; /* Add a background color if needed */
+    display: flex;
+    vertical-align: top; /* Align items at the top of the container */
+    align-items: center;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 35%;
+}
+.Grocerry1 img{
+    border-radius: 35%;
+}
+.general{
+    padding: 5px;
+    color: black;
+    font-size: 15px;
+}
+.Grocerry {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly along the container */
+    flex-wrap: wrap; /* Wrap items to the next line if necessary */
+}

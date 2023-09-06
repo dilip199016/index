@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="clone.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <style>
+        /* Your CSS styles go here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(180deg, #1792eb 25%, #88b3dd 50%, #356294 100%);
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        .header-icon {
+            width: 100px;
+            height: auto;
+        }
+
+        .location {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 15px;
+        }
+
+        .search-bar input[type="text"] {
+            width: 300px;
+            padding: 8px;
+            border: none;
+            border-radius: 20px 0 0 20px;
+        }
+
+        .search-bar button {
+            border: none;
+            background-color: #1792eb;
+            color: #fff;
+            padding: 8px 15px;
+            border-radius: 0 20px 20px 0;
+            cursor: pointer;
+        }
+
+        .category-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .category {
+            text-align: center;
+        }
+
+        .category img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .order {
+            font-size: 16px;
+            margin-top: 15px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .order i {
+            font-size: 20px;
+            margin-right: 5px;
+        }
+
+        .account {
+            font-size: 16px;
+            margin-top: 10px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .account i {
+            font-size: 20px;
+            margin-right: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+       .space{
+        display: flex;
+        flex-direction: column;
+        flex-flow: column;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://truein.com/wp-content/uploads/2021/04/VMM-1.png" alt="Icon" class="header-icon">
+        <div class="location">
+            <i class="fas fa-map-marker-alt"></i> Delivery location
+            <select name="Area" id="area">
+                <option value="Select">Select Area</option>
+                <option value="New Delhi">Delhi-NCR</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Lucknow">Lucknow</option>
+                <option value="Patna">Patna</option>
+                <option value="PrayagRaj">PrayagRaj</option>
+            </select>
+        </div>
+        
+        <div class="search-bar">
+            <input type="text" placeholder="Search.." name="search2">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="space">
+        <div class="order"> 
+            <i class='fas fa-clipboard-list'></i> My Past Orders
+        </div>
+        <div class="account">
+            <i class='fas fa-user-circle'></i> My Account
+        </div>
+        <div class="order"> 
+            <i class='fas fa-clipboard-list'></i> Saved Items
+        </div>
+        <div class="account">
+            <i class='fas fa-user-circle'></i> Cart
+        </div></div>
+    </header>
+    <div class="category-container">
+        <div class="category">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQQTvMB7lk7yAd6aMVeVWr5heLDfoCfH8JAQ&usqp=CAU" alt="Category 1">
+            <p>Home & Kitchen</p>
+        </div>
+        <div class="category">
+            <img src="https://cdn3.vectorstock.com/i/1000x1000/77/72/kitchen-accessories-set-vector-16317772.jpg" alt="Category 2">
+            <p>Appliances</p>
+        </div>
+        <div class="category">
+            <img src="https://www.lmcompany.gr/wp-content/uploads/2016/02/04503-245x245.jpg" alt="Category 3">
+            <p>Travel</p>
+        </div>
+    </div>
+    <footer>Vishal Mega Mart PVT.Ltd.
+        <div class="footer-content">
+            <p>&copy; 2023 Your Website. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

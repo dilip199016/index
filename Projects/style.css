@@ -405,3 +405,40 @@ align-items: center;
     }
     
 }
+
+
+.Skill{
+    margin-left: 100px;
+}
+.box{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f06;
+    box-shadow: 0 3px 0 rgba(red, green, blue, alpha);
+}
+.box .Percent{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.box .Percent svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.box .Percent svg circle{
+    width: 150px;
+    height: 150px;
+    fill: inherit;
+    stroke-width: 10;
+    transform: translate(5px 5px);
+}
+
+.box .Percent{
+    
+}

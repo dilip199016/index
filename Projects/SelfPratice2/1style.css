@@ -1,0 +1,25 @@
+button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: gold;
+    border: 1.5px solid rgb(226, 8, 8);
+    color: rgb(254, 254, 254);
+    padding: 5px;
+    font-size: 25px;
+    margin-bottom: 5px;
+    }
+
+
+    button2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: red;
+        border: 1.5px solid rgb(2, 0, 0);
+        color: rgb(16, 162, 36);
+        padding: 5px;
+        font-size: 25px;
+    }

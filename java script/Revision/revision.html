@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .flex{
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+#GrandParent{
+    width: 400px;
+    height: 400px;
+    border: 2px solid red;
+    margin: auto;
+}
+
+#Parent{
+    width: 300px;
+    height: 300px;
+    border: 2px green;
+    margin: auto;
+}
+#Child{
+    width: 200px;
+    height: 200px;
+    border: 2px gold;
+    margin: auto;
+}
+#GrandChild{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border: 2px black;
+}
+    </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revision Chappter-4</title>
+</head>
+<body>
+    <h2>Interview Question</h2>
+
+<button id="button">Button</button>
+
+<div id='GrandParent' class="flex">GrandParent
+
+    <div id="Parent" class="flex">Parent
+
+  <div id="Child" class="flex">Child
+
+<div id="GrandChild" class="flex">GrandChild
+
+</div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

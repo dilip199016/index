@@ -4,55 +4,58 @@
     <link rel="stylesheet" href="Calculator.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <title>Calculator</title>
 </head>
 <body>
+    
     <div class="First">
-        <h3>Calculator</h3>
+        <p>Casio</p> 
+        <h4>Calculator</h4>
         <div class="Display" id="result">0</div>
         <div class="btn">
-            <div>
-                <button onclick="clearDisplay()">CE</button>
-                <button onclick="clearAll()">C</button>
-                <button onclick="toggleSign()">+/-</button>
-                <button onclick="performOperation('%')">%</button>
+            <div class="top1">
+                <button class="Button" onclick="clearDisplay()">CE</button>
+                <button class="Button" onclick="clearAll()">C</button>
+                 <button class="Button" onclick="toggleSign()">+/-</button>
+                <button class="Button" onclick="performOperation('%')">%</button>
             </div>
 
 
-            <div>
-                <button onclick="appendNumber(7)">7</button>
-                <button onclick="appendNumber(8)">8</button>
-                <button onclick="appendNumber(9)">9</button>
-                <button onclick="performOperation('/')">/</button>
+            <div class="top2">
+                <button class="Button" onclick="appendNumber(7)">7</button>
+                <button class="Button" onclick="appendNumber(8)">8</button>
+                <button class="Button" onclick="appendNumber(9)">9</button>
+                <button class="Button" onclick="performOperation('/')">/</button>
             </div>
 
 
-            <div>
-                <button onclick="appendNumber(4)">4</button>
-                <button onclick="appendNumber(5)">5</button>
-                <button onclick="appendNumber(6)">6</button>
-                <button onclick="performOperation('*')">*</button>
+            <div class="top3">
+                <button class="Button" onclick="appendNumber(4)">4</button>
+                <button class="Button" onclick="appendNumber(5)">5</button>
+                <button class="Button" onclick="appendNumber(6)">6</button>
+                <button class="Button" onclick="performOperation('*')">*</button>
             </div>
 
 
-            <div>
-                <button onclick="appendNumber(1)">1</button>
-                <button onclick="appendNumber(2)">2</button>
-                <button onclick="appendNumber(3)">3</button>
-                <button onclick="performOperation('-')">-</button>
+            <div class="last">
+                <button class="Button" onclick="appendNumber(1)">1</button>
+                <button class="Button" onclick="appendNumber(2)">2</button>
+                <button class="Button" onclick="appendNumber(3)">3</button>
+                <button class="Button" onclick="performOperation('-')">-</button>
             </div>
 
 
-            <div>
-                <button onclick="appendDecimal()">.</button>
-                <button onclick="appendNumber(0)">0</button>
-                <button onclick="performOperation('+')">+</button>
-                <button onclick="calculate()">=</button>
+            <div class="last2">
+                <button class="Button" onclick="appendDecimal()">.</button>
+                <button class="Button" onclick="appendNumber(0)">0</button>
+                <button class="Button" onclick="performOperation('+')">+</button>
+                <button class="Button" onclick="calculate()">=</button>
             </div>
         </div>
     </div>
 
-    
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <script src="calculator.js"></script>
 </body>
 </html>

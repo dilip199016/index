@@ -1,0 +1,98 @@
+.flex{
+    display: flex;
+}
+
+.item-center{
+    align-items: center;
+}
+.justify-content{
+    justify-content: center;
+    
+}
+.space-between{
+    justify-content: space-between;
+}
+
+
+.uppercase{
+    text-transform: uppercase;
+}
+.semibold{
+    font-weight: bolder;
+}
+ .mx-2{
+    margin-left: 12px;
+    margin-right: 12px;
+} 
+.section1{
+    background: rgb(230, 222, 222);
+    height: 120vh;
+    width: auto;
+    
+}
+header{
+    position: sticky;
+    top: 0;
+    /* border: 0.3px solid;
+    padding: 10px; */
+    box-shadow: rgba(0,0 ,0, .35) 0px 5px 15px;
+    font-weight: bolder;
+    font-size: 12px;
+    background: white;
+    height: 66px;
+}
+.homeimg{
+    width: 90vw; 
+    /* margin: 12px 0 25px 0; */
+}
+    
+.desktop{
+width: 34vw;
+
+padding: 4px 17px;
+border: .5px;
+border-radius: 2px;
+background-color: rgb(244, 245, 247);
+    }
+    .flex sup{
+        color:  #ef5151;
+    }
+    .coupan{
+        display: flex;
+        flex-direction: row;
+        height: 151.4px;
+        
+    }
+  
+    .Men{
+       box-sizing: content-box;
+       display: flex;
+       flex-direction: row;
+      
+      
+    }
+    
+
+    .Selection-Area {
+        display: flex;
+        justify-content: center;
+       width: 90%;
+        
+       border: 2px red;
+              margin-top: 0;
+      }
+      
+     
+      
+     
+      
+      .Product img {
+        /* max-width: 100%; */
+        height: auto;
+        width: 249px;
+        display: flex;
+        flex-direction: row;
+      }
+    
+    
+     

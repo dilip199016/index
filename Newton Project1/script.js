@@ -6,7 +6,7 @@ const previousBtn = document.getElementById("previous");
 const nextBtn = document.getElementById("next");
 const pageMidText = document.getElementById("buttonMidText");
 const searchBtn = document.getElementById("searchBtn");
-const searchInput = document.getElementById("searchInput");
+const searchInput = document.getElementById("searchInpt");
 let allButton = document.getElementById("allButton");
 let favouriteBtn = document.getElementById("favouriteButton");
 
@@ -41,7 +41,7 @@ function displayMovies(data) {
   data.forEach((val) => {
     let arr = favouriteData.filter((x) => x.title === val.title);
     //console.log(arr.length);
-    movieSection.innerHTML += `<div class="movieCard" id="1">
+    movieSection.innerHTML += `<div class="movieCrd" id="1">
         <div class="movieImage"><img src="https://image.tmdb.org/t/p/original/${
           val.poster_path
         }" /></div>
